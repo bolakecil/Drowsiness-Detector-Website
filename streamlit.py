@@ -375,7 +375,7 @@ change_percentage = calculate_weekly_change(drowsiness_data)
 if change_percentage == 0:
     st.subheader("No data from last week to compare.")
 else:
-    st.subheader(f"You've been {change_percentage}% drowsier this week.")
+    st.subheader(f"You've been {int(round(change_percentage, 0))}% drowsier this week.")
 
 drowsiness_df = pd.DataFrame(drowsiness_data)
 drowsiness_df['timestamp'] = pd.to_datetime(drowsiness_df['timestamp'], errors='coerce')
