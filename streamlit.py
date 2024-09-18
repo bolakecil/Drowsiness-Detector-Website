@@ -186,7 +186,7 @@ if mobile_view:
                                 <strong>Drowsiness detected at {timestamp}</strong>
                             </div>
                             <div style="flex: 0;">
-                                <img src="data:image/png;base64,{image_base64}" alt="Drowsiness Image" style="width: 45px; object-fit: fill; margin-left: 10px;">
+                                <img src="data:image/png;base64,{image_base64}" alt="Drowsiness Image" style="width: 45px; object-fit: fill;">
                             </div>
                         </div>
                     """, unsafe_allow_html=True)
@@ -267,7 +267,7 @@ else:
                                 <strong>Drowsiness detected at {timestamp}</strong>
                             </div>
                             <div style="flex: 0;">
-                                <img src="data:image/png;base64,{image_base64}" alt="Drowsiness Image" style=" width: 45px; object-fit: fill; margin-left: 10px;">
+                                <img src="data:image/png;base64,{image_base64}" alt="Drowsiness Image" style=" width: 45px; object-fit: fill;">
                             </div>
                         </div>
                     """, unsafe_allow_html=True)
