@@ -267,7 +267,7 @@ else:
                                 <strong>Drowsiness detected at {timestamp}</strong>
                             </div>
                             <div style="flex: 0;">
-                                <img src="data:image/png;base64,{image_base64}" alt="Drowsiness Image" style="height: 60px; object-fit: contain; margin-left: 10px;">
+                                <img src="data:image/png;base64,{image_base64}" alt="Drowsiness Image" style="height: 120px; max-width: 120px; object-fit: cover; margin-left: 10px; border-radius: 8px;">
                             </div>
                         </div>
                     """, unsafe_allow_html=True)
