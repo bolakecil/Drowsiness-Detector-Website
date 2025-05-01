@@ -180,8 +180,8 @@ if mobile_view:
                             <div style="flex: 1;">
                                 <strong>Drowsiness detected at {timestamp}</strong>
                             </div>
-                            <div style="flex: 0;">
-                                <img src="data:image/png;base64,{image_base64}" alt="Drowsiness Image" style="height: 60px; object-fit: contain; margin-left: 10px;">
+                            <div style="flex-shrink: 0;">
+                                <img src="data:image/png;base64,{image_base64}" alt="Drowsiness Image" style="width: 100px; object-fit: contain; margin-left: 10px;">
                             </div>
                         </div>
                     """, unsafe_allow_html=True)
@@ -260,7 +260,7 @@ else:
                             <div style="flex: 1;">
                                 <strong>Drowsiness detected at {timestamp}</strong>
                             </div>
-                            <div style="flex: 0;">
+                            <div style="flex-shrink: 0;">
                                 <img src="data:image/png;base64,{image_base64}" alt="Drowsiness Image" style="height: 60px; object-fit: contain; margin-left: 10px;">
                             </div>
                         </div>
